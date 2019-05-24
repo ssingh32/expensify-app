@@ -1,16 +1,3 @@
-
-//rendered by ExpensesDashboardPage
-//test with two snapshots test
-//Connected to store for: 
-//  - expensesCount(how many visible expenses?)
-//  - expensesTotal (what's the total of the visible expenses?)
-
-// Example 
-// Viewing 2 expenses totalling $94.34
-
-// Example 
-// Viewing 1 expense totalling $23.54
-
 import React from 'react';
 import { connect } from 'react-redux';
 import numeral from 'numeral';
