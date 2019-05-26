@@ -44,7 +44,7 @@ exports[`should render Edit Expense Page correctly 1`] = `
 </div>
 `;
 
-exports[`should render Remove Expense 1`] = `
+exports[`should render startRemoveExpense 1`] = `
 <div>
   <ExpenseForm
     expense={
