@@ -13,7 +13,9 @@ exports[`should render Login Page correctly 1`] = `
     <p>
       It's time to get your expenses under control.
     </p>
-    <button>
+    <button
+      className="button"
+    >
       Login With Google
     </button>
   </div>

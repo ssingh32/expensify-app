@@ -36,6 +36,12 @@ exports[`should render Edit Expense 1`] = `
     >
       Remove Expense
     </button>
+    <RemoveExpenseModal
+      clearSelectedOption={[Function]}
+      handleModalOption={[Function]}
+      modalOpen={false}
+      onRemove={[Function]}
+    />
   </div>
 </div>
 `;
@@ -76,46 +82,12 @@ exports[`should render Edit Expense Page correctly 1`] = `
     >
       Remove Expense
     </button>
-  </div>
-</div>
-`;
-
-exports[`should render startRemoveExpense 1`] = `
-<div>
-  <div
-    className="page-header"
-  >
-    <div
-      className="content-container"
-    >
-      <h1
-        className="page-header__title"
-      >
-        Edit Expense
-      </h1>
-    </div>
-  </div>
-  <div
-    className="content-container"
-  >
-    <ExpenseForm
-      expense={
-        Object {
-          "amount": 4500,
-          "createdAt": 345600000,
-          "description": "Credit Card",
-          "id": "3",
-          "note": "",
-        }
-      }
-      onSubmit={[Function]}
+    <RemoveExpenseModal
+      clearSelectedOption={[Function]}
+      handleModalOption={[Function]}
+      modalOpen={false}
+      onRemove={[Function]}
     />
-    <button
-      className="button button--secondary"
-      onClick={[Function]}
-    >
-      Remove Expense
-    </button>
   </div>
 </div>
 `;

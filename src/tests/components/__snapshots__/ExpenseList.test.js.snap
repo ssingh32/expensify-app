@@ -15,12 +15,12 @@ exports[`Should render ExpenseList with empty message 1`] = `
     <div
       className="show-for-desktop"
     >
-      &gt;Expense
+      Expense
     </div>
     <div
       className="show-for-desktop"
     >
-      &gt;Amount
+      Amount
     </div>
   </div>
   <div
@@ -52,12 +52,12 @@ exports[`Should render ExpenseList with expenses 1`] = `
     <div
       className="show-for-desktop"
     >
-      &gt;Expense
+      Expense
     </div>
     <div
       className="show-for-desktop"
     >
-      &gt;Amount
+      Amount
     </div>
   </div>
   <div
