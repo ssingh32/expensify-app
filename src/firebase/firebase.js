@@ -15,8 +15,9 @@ firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
 
 const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+const githubProvider = new firebase.auth.GithubAuthProvider();
 
-export {firebase, googleAuthProvider, database as default};
+export {firebase, googleAuthProvider, githubProvider, database as default};
 
 // database.ref('expenses')
 // .once('value')

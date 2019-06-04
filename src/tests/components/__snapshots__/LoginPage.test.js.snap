@@ -13,11 +13,20 @@ exports[`should render Login Page correctly 1`] = `
     <p>
       It's time to get your expenses under control.
     </p>
-    <button
-      className="button"
+    <div
+      className="box-layout__button"
     >
-      Login With Google
-    </button>
+      <button
+        className="button"
+      >
+        Login With Google
+      </button>
+      <button
+        className="button"
+      >
+        Login With Github
+      </button>
+    </div>
   </div>
 </div>
 `;
